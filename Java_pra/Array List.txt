@@ -1,0 +1,43 @@
+
+import java.util.ArrayList;
+
+public class ArrayListAssignment {
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        
+        // Adding elements
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        
+        // Accessing elements
+        System.out.println("Element at index 1: " + list.get(1));
+        
+        // Removing an element
+        list.remove(1);
+        
+        // Displaying list
+        System.out.println("ArrayList: " + list);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
